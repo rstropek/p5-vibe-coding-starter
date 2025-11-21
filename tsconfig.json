@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "none",
+    "target": "esnext",
+    "types": [],
+    "strict": false,
+    "skipLibCheck": true
+  }
+}
