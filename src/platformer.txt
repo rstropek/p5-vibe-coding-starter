@@ -1,0 +1,18 @@
+import "globals";
+
+function setup() {
+    createCanvas(750, 750);
+}
+
+function draw() {
+    noStroke();
+    background(200,200,255);
+    
+    // Plattform
+    fill(0,200,0);
+    rect(275, 550, 250, 50);
+
+    // Spieler
+    fill(100, 100, 100);
+    rect(325, 400, 100, 100);
+}
